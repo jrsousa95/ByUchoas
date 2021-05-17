@@ -1,0 +1,136 @@
+body{
+    background-color: #ffe6e6;
+    font-family: 'Indie Flower', cursive;
+}
+#imglogo{
+    width: 100px;
+    height: 100px;
+}
+#logo{
+    display: inline-flexbox;
+    text-align: center;
+    width: auto;
+    height: 30px;
+}
+#menu{ 
+    display:inline-flexbox;
+    text-align: center;
+    font-weight: bold;
+}
+#busca{
+    margin-top: 5px;
+    display: flexbox;
+    text-align: center;
+}
+#txtbusca{
+    background-color:white;
+    padding-left: 15px;
+    font-size: 20px;
+    font-style: italic;
+    width: 500px;
+    text-align: left;
+    font-family: 'Indie Flower', cursive;
+    border-radius: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+    padding: 5px 20px;
+    margin: 30px;
+}
+a:hover{
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 15px;
+    padding: 5px 20px;
+}
+#imginicio{
+    text-align: center;
+}
+#contato{
+    font-size: 20px;
+    font-weight: bold;
+}
+.principal{
+    font-size: 40px;
+    color: pink;
+}
+#horarios{
+    font-size: 40px;
+    color: pink;
+    text-align: center;
+    font-weight: bold;
+}
+.secundario{
+    text-align: left;
+}
+.phorarios{
+    font-size: 20px;
+    text-align: center;
+}
+#formulario{
+    text-align: center;
+    font-weight: bold;
+}
+#txtnome{
+    background-color:white;
+    padding-left: 15px;
+    border: solid 0.5px;
+    border-radius: 15px;
+    width: 450px;
+    font-family: 'Indie Flower', cursive;
+    margin: 15px;
+    font-size: 20px;
+}
+#txttel{
+    background-color:white;
+    padding-left: 15px;
+    border: solid 0.5px;
+    border-radius: 15px;
+    width: 450px;
+    font-family: 'Indie Flower', cursive;
+    margin: 15px;
+    font-size: 20px;
+}
+#txtmail{
+    background-color:white;
+    padding-left: 15px;
+    border: solid 0.5px;
+    border-radius: 15px;
+    width: 450px;
+    font-family: 'Indie Flower', cursive;
+    margin: 15px;
+    font-size: 20px;
+}
+#txtmsg{
+    background-color:white;
+    padding-left: 15px;
+    border: solid 0.5px;
+    border-radius: 15px;
+    width: 450px;
+    font-family: 'Indie Flower', cursive;
+    margin: 15px;
+    font-size: 20px;
+    height: 200px;
+}
+.form{
+    display: inline-flex;
+    font-size: 18px;
+}
+div{
+    padding: 30px;
+}
+#org{
+    display:inline-flex;
+}
+#destaques{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    Color: pink;
+}
+footer{
+    text-align: center;
+}
