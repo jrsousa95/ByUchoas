@@ -6,20 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>By Uchoas</title>
+    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="logo.png" />
+    <link rel="shortcut icon" href="./img/logo.png" />
 </head>
 
 <body>
     <header>
         <div id="logo">
-            <img id=imglogo src="logo.png" alt="by uchoas">
+            <img id=imglogo src="./img/logo.png" alt="by uchoas">
         </div>
     </header>
     <div id="busca">
-        <input type="text" name="Buscar" id="txtbusca" placeholder="O que você está procurando?">
+        <input type="text" name="Buscar" id="txtbusca" placeholder="O que você está procurando?"><br>
         <div id="menu"> <a href="index.html">Inicio</a> <a href="produtos.html">Produtos</a> <a
                 href="contato.html">Contato</a> <a href="horarios.html">Horários de Atendimento</a>
         </div>
@@ -27,23 +28,24 @@
     <div id="org">
         <div id="contato">
             <p class="principal">Contato</p>
-            <p class="secundario"><img src="wpplogo.png" width=20px; alt="WhastApp"> (85) 98654-5540</p>
-            <p class="secundario"><img src="instalogo.png" width=20px; alt="Instagram"> @byuchoas</p>
-            <p class="secundario"><img src="maillogo.png" width=20px; alt="E-mail"> contato@byuchoas.com</p>
-            <p class="secundario"><img src="mapslogo.png" width=20px; alt="Mapa"> Av. A, Bloco 23, ap 12c (Conj. Nova
-                Metrópole)</p>
+            <img id="wpp" src="./img/wpplogo.png" width=20px; alt="WhastApp"> (85) 98654-5540<br>
+            <img id="ig" src="./img/instalogo.png" width=20px; alt="Instagram"> @byuchoas<br>
+            <img id="email" src="./img/maillogo.png" width=20px; alt="E-mail"> contato@byuchoas.com<br>
+            <img id="map" src="./img/mapslogo.png" width=20px; alt="Mapa"> Av. A, Bloco 23, ap 12c (Conj. Nova
+            Metrópole)<br>
         </div>
-        <div id="formulario">
+        <form name="formUser" method="POST" action="enviar-dados">
             <p class="principal">Deixe sua Mensagem</p>
             <p class="form">Nome</p>
-            <input type="text" name="Nome" id="txtnome"><br>
+            <input type="text" name="nome" id="txtnome"><br>
             <p class="form">E-mail</p>
-            <input type="text" name="E-mail" id="txtmail"><br>
+            <input type="email" name="email" id="txtmail"><br>
             <p class="form">Telefone</p>
-            <input type="text" name="Telefone" id="txttel"><br>
+            <input type="tel" name="telefone" id="txttel"><br>
             <p class="form">Mensagem</p>
-            <input type="text" name="Mensagem" id="txtmsg"><br>
-        </div>
+            <input type="text" name="mensagem" id="txtmsg"><br>
+            <input class="sub" type="submit" onclick="return checkcont()">
+        </form>
     </div>
     <footer><strong>@byuchoas</strong></footer>
     <script src="script.js"></script>

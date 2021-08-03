@@ -7,19 +7,16 @@ body{
     height: 100px;
 }
 #logo{
-    display: inline-flexbox;
     text-align: center;
     width: auto;
-    height: 30px;
 }
 #menu{ 
-    display:inline-flexbox;
-    text-align: center;
+    display:inline-block;
     font-weight: bold;
+    padding-top: 10px;
 }
 #busca{
-    margin-top: 5px;
-    display: flexbox;
+    margin-top: 10px;
     text-align: center;
 }
 #txtbusca{
@@ -37,52 +34,83 @@ a{
     color: black;
     font-size: 20px;
     font-family: 'Indie Flower', cursive;
-    padding: 5px 20px;
-    margin: 30px;
+    padding: 2px 25px;
+    margin: 3px;
 }
 a:hover{
     background-color: white;
     border: solid 1px black;
-    border-radius: 15px;
-    padding: 5px 20px;
+    border-radius: 20px;
+    padding: 5px, 10px;
 }
 #imginicio{
     text-align: center;
+    margin-top: 30px;
 }
 #contato{
     font-size: 20px;
     font-weight: bold;
+    text-align: justify;
+    width: 450px;
+    margin: auto;
 }
 .principal{
     font-size: 40px;
     color: pink;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    text-align: center;
+}
+#wpp{
+    padding: 0;
+    margin: auto; 
+    float:left;
+    margin-right: 15px;   
+}
+#ig{
+    padding: 0;
+    margin: auto; 
+    float:left;
+    margin-right: 15px;   
+}
+#email{
+    padding: 0;
+    margin: auto; 
+    float:left;
+    margin-right: 15px;
+}
+#map{
+    padding: 0;
+    margin: auto; 
+    float:left;
+    margin-right: 15px;
 }
 #horarios{
     font-size: 40px;
     color: pink;
     text-align: center;
     font-weight: bold;
-}
-.secundario{
-    text-align: left;
+    margin-top: 30px;
 }
 .phorarios{
     font-size: 20px;
     text-align: center;
-}
-#formulario{
-    text-align: center;
     font-weight: bold;
+    margin: 0;
+    margin-top: 10px;
 }
 #txtnome{
     background-color:white;
-    padding-left: 15px;
+    padding: 2px;
     border: solid 0.5px;
     border-radius: 15px;
-    width: 450px;
+    width: 463px;
     font-family: 'Indie Flower', cursive;
-    margin: 15px;
+    margin: 5px;
     font-size: 20px;
+    margin-bottom: 5px;
+    margin-left: 80px;
 }
 #txttel{
     background-color:white;
@@ -91,8 +119,10 @@ a:hover{
     border-radius: 15px;
     width: 450px;
     font-family: 'Indie Flower', cursive;
-    margin: 15px;
+    margin: 0;
     font-size: 20px;
+    margin-bottom: 5px;
+    margin-left: 60px;
 }
 #txtmail{
     background-color:white;
@@ -101,8 +131,10 @@ a:hover{
     border-radius: 15px;
     width: 450px;
     font-family: 'Indie Flower', cursive;
-    margin: 15px;
+    margin: 0;
     font-size: 20px;
+    margin-bottom: 5px;
+    margin-left: 80px;
 }
 #txtmsg{
     background-color:white;
@@ -111,26 +143,46 @@ a:hover{
     border-radius: 15px;
     width: 450px;
     font-family: 'Indie Flower', cursive;
-    margin: 15px;
+    margin: 0;
     font-size: 20px;
     height: 200px;
+    margin-bottom: 5px;
+    margin-left: 50px;
 }
 .form{
-    display: inline-flex;
+    display: inline;
     font-size: 18px;
-}
-div{
-    padding: 30px;
+    padding-left: 15px;
 }
 #org{
-    display:inline-flex;
+    padding: 0;
+    margin: 0;
+    text-align: inline;
 }
 #destaques{
     font-size: 40px;
     font-weight: bold;
     text-align: center;
     Color: pink;
+    margin-top: 30px;
+}
+form{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-align: center;
+
+}
+.sub{
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    width: 300px;
+    background-color: pink;
+    border-radius: 15px;
+
 }
 footer{
     text-align: center;
+    margin-top: 15px;
 }
